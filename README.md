@@ -5,4 +5,4 @@ jiacheng Li     CWID: 888860020
 Rushiraj Jadeja CWID: 893283366
 Samarth Shah    CWID: 893514976
 
-Smart Wallet Url : 
+Smart Wallet Url :https://smartwallet-6cf71.firebaseapp.com/
