@@ -1,0 +1,231 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+ul {
+  margin: 0;
+}
+
+.popup {
+  border-radius: 25px;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.popup_inner {
+  position: absolute;
+  border-radius: 25px;
+  left: 25%;
+  right: 25%;
+  top: 25%;
+  bottom: 15%;
+  margin: auto;
+  background: white;
+}
+
+.addExpenseHeader {
+  font-family: time-new-roman;
+  display: block;
+  padding: 15px;
+  text-align: center;
+  background: #616161;
+  color: #ecf0f1;
+}
+
+.delete-btn {
+  background: transparent;
+  color: #e60000;
+  margin: 0;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+.edit-btn {
+  background: transparent;
+  color: #ffa500;
+  margin: 0;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+.card {
+  font-family: time-new-roman;
+  background-color: black;
+  border-radius: 25px;
+  margin-top: 15px;
+  border-left: 10px solid rgba(0, 0, 0, 0.1) !important;
+}
+
+.card:hover {
+  border-left: 10px solid rgba(0, 0, 0, 0.5) !important;
+}
+
+.card1 {
+  background-image: url("https://www.walldevil.com/wallpapers/a84/simple-abstract-color-wallpapers.jpg");
+  color: #ddd !important;
+}
+
+.card2 {
+  background-image: url("https://www.walldevil.com/wallpapers/a84/simple-abstract-color-wallpapers.jpg");
+  color: #ddd !important;
+}
+
+.card3 {
+  background-image: url("https://www.walldevil.com/wallpapers/a84/simple-abstract-color-wallpapers.jpg");
+  color: #ddd !important;
+}
+
+.card4 {
+  background-image: url("https://www.walldevil.com/wallpapers/a84/simple-abstract-color-wallpapers.jpg");
+  color: #ddd !important;
+}
+
+.card .card-block .card-title {
+  padding: 15px;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+}
+
+.card .card-block .card-text {
+  padding: 15px;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.expense-day {
+  margin-left: 15px;
+  color: orange;
+}
+
+.ttt:hover {
+  border-left: 5px solid #d2c0a0 !important;
+}
+
+@media (orientation: portrait) {
+  .chart-container {
+    min-height: 60vh;
+  }
+}
+
+@media (orientation: landscape) {
+  .chart-container {
+    min-height: auto;
+  }
+}
+
+nav {
+  background-color: #1997c3;
+  color: white !important;
+  overflow: hidden;
+  padding: 1em;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+nav a {
+  color: #808080;
+}
+
+nav a:visited {
+  color: #808080;
+}
+
+nav .navWide {
+  display: none;
+  margin: 5 auto;
+}
+
+nav .navWide .wideDiv {
+  text-align: right;
+}
+
+nav .navWide .navbar-nav {
+  position: absolute;
+  top: 5px;
+  left: 15px;
+}
+
+nav .navWide .wideDiv a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 0 40 px;
+}
+
+nav .navNarrow i {
+  float: left;
+  cursor: pointer;
+  color: #000;
+}
+
+nav .navNarrow .narrowLinks {
+  display: none;
+}
+
+nav .navNarrow .narrowLinks a {
+  text-decoration: underline;
+  background: #373c49;
+  display: block;
+  float: left;
+  clear: left;
+  padding: 0.50em 80% 9px 9px;
+  max-width: 50px;
+  max-height: 100px;
+  border-radius: 0 px;
+  border-color: #228B22;
+  border-width: thick;
+  border-style: solid;
+}
+
+nav .navNarrow .navbar-nav {
+  position: relative;
+  top: 20px;
+  left: 20px;
+}
+
+.active {
+  background: #373c49;
+  color: #228B22 !important;
+  border-radius: 10px;
+}
+
+.inactive {
+  background: #373c49;
+  color: white !important;
+  border-radius: 10px;
+}
+
+@media (min-width: 1023px) {
+  nav .navWide {
+    display: block;
+  }
+  nav .navNarrow {
+    display: none;
+  }
+}
+
+@media print {
+  body {
+    -webkit-print-color-adjust: exact;
+  }
+  table td[data-th="Edit"], table td[data-th="Delete"] {
+    display: none;
+  }
+  .expense-table thead tr th:nth-child(6), .expense-table thead tr th:nth-child(7) {
+    display: none;
+  }
+  .loan-table thead tr th:nth-child(8), .loan-table thead tr th:nth-child(9) {
+    display: none;
+  }
+}

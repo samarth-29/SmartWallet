@@ -1,0 +1,61 @@
+.login-page {
+    width: 360px;
+    padding: 2% 0 0;
+    margin: auto;
+}
+.form {
+    border-radius:25px;
+    position: relative;
+    z-index: 1;
+    background: #cbdbe0;
+    max-width: 360px;
+    margin: 17% auto 25px;
+    padding: 45px;
+    text-align: center;
+    box-shadow: 0 0 70px 0 rgba(15, 119, 133, 0.46), 0 5px 5px 0 rgba(12, 99, 135, 0.24);
+}
+.form input {
+    border-radius:25px;
+    font-family: sans-serif;
+    outline: 0;
+    background: #f2f2f2;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+.form button {
+    border-radius:25px;
+    font-family: times-new-roman;
+    text-transform: uppercase;
+    outline: 0;
+    background: #4caf50;
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    color: #ffffff;
+    font-size: 14px;
+    -webkit-transition: all 0.3 ease;
+    transition: all 0.3 ease;
+    cursor: pointer;
+}
+.form button:hover,
+.form button:active,
+.form button:focus {
+    background: #43a047;
+}
+
+.googleSignIn {
+    border-radius:25px;
+    background: rgb(192, 96, 96) !important;
+    color: #ddd !important;
+    padding: 15px;
+    cursor: pointer;
+}
+
+.googleLogo {
+    margin-right: 15px;
+    font-weight: bold;
+}
